@@ -1,0 +1,60 @@
+.banner {
+	height: 400px;
+	background-color: brg(227,227,227);
+	margin: 10px 0;
+	padding: 40px 0;
+	padding-left: 40px;
+}
+
+.banner .book-cover {
+	width: 220px;
+	height: 100%;
+	float: left;
+	position: relative;
+	background-color: brg(192,192,192);
+}
+
+.banner .book-cover span {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 14px;
+	transform: translate(-50%,-50%);
+}
+
+.banner .book-of-the {
+	float: left;
+	margin-left: 100px;
+	width: 400px;
+	height: 100%;
+}
+
+.banner .book-of-the h1 {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.banner .book-of-the button {
+	padding: 7px 14px;
+	background-color: brg(98,98,98);
+	border: none;
+	color: #fff;
+	margin-top: 18px;
+}
+
+.banner .our-iron {
+	float: right;
+	height: 100%;
+	padding: 20px;
+	background-color: brg(202,202,202);
+}
+
+.banner .line.r {
+	width: 40px;
+	height: 100%;
+	background-color: brg(227,227,227);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}

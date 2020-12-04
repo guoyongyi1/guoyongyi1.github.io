@@ -1,0 +1,45 @@
+body {
+	width: 1060px;
+	margin: auto;
+}
+
+* {
+	box-sizing: border-box;
+    color: saddlebrown;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+p {
+	margin: 0;
+}
+
+html,body {
+	position: relative;
+	height: 100%;
+    color:blanchedalmond; 
+}
+
+body {
+	background-image:url(../images/snow.jpg);
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: burlywood;
+}

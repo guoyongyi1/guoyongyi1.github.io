@@ -1,0 +1,13 @@
+.footer {
+	height: 60px;
+	line-height: 60px;
+	border-top: 2px solid rgb(233,233,233);
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 600;
+    color: cornflowerblue;
+}
+
+.footer .fr {
+	float: right;
+}
